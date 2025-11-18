@@ -29,7 +29,7 @@ export default function Dashboard() {
         >
           <Link
             to={`/country/${most.name}`}
-            className="text-white bg-slate-800 text-md rounded-2xl flex items-center justify-center"
+            className="text-white h-[40%] bg-slate-800 text-md rounded-2xl flex items-center justify-center"
           >
             Ver detalle
           </Link>
@@ -41,7 +41,7 @@ export default function Dashboard() {
         >
           <Link
             to={`/country/${least.name}`}
-            className="text-white flex items-center justify-center rounded-2xl bg-slate-800 text-md"
+            className="text-white h-[40%] flex items-center justify-center rounded-2xl bg-slate-800 text-md"
           >
             Ver detalle
           </Link>
